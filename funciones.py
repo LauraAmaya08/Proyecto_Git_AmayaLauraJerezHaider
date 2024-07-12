@@ -43,7 +43,7 @@ def mostrar_Ciudades():
             print("----------------------------------------------------------------")
 
 #editar ciudad
-def editarUsuarios():
+def editarCiudad():
     with open("baseDatos.json","r") as json_file:
         datos = json.load(json_file)
 

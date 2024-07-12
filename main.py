@@ -17,7 +17,7 @@ while True:
                             opcion =opc()
                             print("Ingresa una opcion valida\n")
                         if opcion==1:
-                              print("mostrar json")
+                              mostrar_Ciudades()
                         elif opcion==2:
                               while True:
                                 menu_Buscar()
@@ -37,7 +37,7 @@ while True:
                              print("SALISTE DE BUSCAR CIUDAD")
                              break
             elif opcion==2:
-                 print("funcion añadir ciudad")
+                 crear_Ciudad()
             elif opcion==3:
                 while True:
                     menu_Actualizar()
@@ -56,7 +56,7 @@ while True:
                         print("SALISTE DE ACTUALIZAR")
             else:
                  print("MUCHAS GRACIAS POR USAR CITY LOCATION")
-                            
+
                                 
                                      
 

@@ -6,3 +6,6 @@ def opc():
         error= "Valor invalido"
         print (error)
         return -1
+    
+
+print("trabaja haider")
